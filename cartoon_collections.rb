@@ -7,7 +7,7 @@ puts "Hello #{element}!"
 end
 
 def list_dwarves(array)
-  array.each_with_index do |element|
+  array.each_with_index do |index, element|
     puts element
   end
 end
